@@ -1,0 +1,23 @@
+.navigation {
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.title {
+    text-align: center;
+    background-color: #eee;
+    padding: 5px 0;
+    font-weight: 500;
+}
+
+.menu {
+    padding: 15px 30px;
+}
+
+.item {
+    cursor: pointer;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 10px;
+}

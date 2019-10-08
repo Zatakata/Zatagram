@@ -1,0 +1,22 @@
+.profile {
+    padding: 30px;
+    margin-top: 20px;   
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+
+.avatar {
+    margin-right: 15px;
+    width: 70px;
+    height: 70px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.login {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: rgb(104, 104, 104);
+}
