@@ -9,7 +9,7 @@ const Profile = () => {
         <div className={s.profile}>
             <div className={s.header}>
                 <h2 className={s.title}>Профиль</h2>
-                <Activity />
+                <Activity subscriptions='17' subscribers='74' />
             </div>
             <My_posts />
         </div>

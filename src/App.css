@@ -13,6 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
     background-color: #272c28;
     font-family: Arial;
+    overflow-y: scroll;
 }
 
 ul {
@@ -23,15 +24,21 @@ ul {
 
 a {
     text-decoration: none;  
+    color: inherit;
 }
 
 .app {
-    min-height: 100vh;   
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: 50px auto;
-    grid-template-areas: "header header"
-                         "main aside";
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.app-main {
+    padding: 30px 15px;
+    min-height: calc(100vh - 60px);
+    width: 75%;
+    background-color: #fff;
 }
 
 .container {

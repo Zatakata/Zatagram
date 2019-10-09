@@ -16,8 +16,13 @@
 
 .item {
     cursor: pointer;
+    color: #000
 }
 
 .item:not(:last-child) {
     margin-bottom: 10px;
+}
+
+.item .active {
+    color: #4da543;
 }

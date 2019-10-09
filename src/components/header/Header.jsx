@@ -1,12 +1,13 @@
 import React from 'react'
 import s from './Header.module.css'
+import  logo from './../../logo.png'
 
 
 const Aside = () => {
     return (
         <header className={s.header}>
             <a href='#' className={s.logo}>
-                <img src='http://pngimg.com/uploads/bmw_logo/bmw_logo_PNG19705.png' />
+                <img src={logo} />
             </a>
             <ul className={s.settings}>
                 <li><img />+</li>
