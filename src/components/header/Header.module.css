@@ -1,7 +1,6 @@
 .header {
     width: 100%;
     height: 60px;
-    padding: 0 15px;
     display: flex;
     justify-content: space-between; 
     align-items: center;
@@ -13,5 +12,16 @@
 }
 
 .settings {
-    display: flex;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform .5s;
+}
+.settings:hover {
+    transform: rotate(45deg);
+}
+
+.settings img {
+    width: 34px;
+    height: 34px;
 }

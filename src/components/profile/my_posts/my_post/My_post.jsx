@@ -2,7 +2,7 @@ import React from 'react'
 import s from './My_post.module.css'
 
 
-const My_post = (props) => {
+const MyPost = (props) => {
     return (
         <div className={s.post}>
             <img src={props.src} />
@@ -10,4 +10,4 @@ const My_post = (props) => {
     )
 }
 
-export default My_post;
+export default MyPost;

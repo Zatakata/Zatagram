@@ -9,10 +9,9 @@ const Aside = () => {
             <a href='#' className={s.logo}>
                 <img src={logo} />
             </a>
-            <ul className={s.settings}>
-                <li><img />+</li>
-                <li><img />+</li>
-            </ul>
+            <button className={s.settings}>
+                <img src='https://img.icons8.com/flat_round/64/000000/settings--v4.png' />
+            </button>
         </header>
     )
 }

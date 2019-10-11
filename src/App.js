@@ -3,17 +3,17 @@ import './App.css'
 import Header from './components/header/Header'
 import Aside from './components/aside/Aside'
 import Profile from "./components/profile/Profile";
-import PostsFeed from "./components/posts_feed/PostsFeed";
+import Feed from "./components/feed/Feed";
 import {BrowserRouter, Route} from "react-router-dom";
 
-const App = () => {
+const App = (props) => {
   return (
     <BrowserRouter>
         <section className='app container'>
             <Header />
             <div className='app-main'>
-                <Route path='/Profile' component={Profile} />
-                <Route path='/PostsFeed' component={PostsFeed} />
+                <Route path='/Profile' render={ () => <Profile state={props.state.profile} /> } />
+                <Route path='/PostsFeed' render={ () => <Feed state={props.state.feed} /> }  />
             </div>
             <Aside />
         </section>
