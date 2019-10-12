@@ -1,0 +1,12 @@
+.subscriptions {
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.list {
+    padding: 15px 15px 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+

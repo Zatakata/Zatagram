@@ -1,0 +1,21 @@
+.navigation {
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.menu {
+    padding: 15px 30px;
+}
+
+.item {
+    cursor: pointer;
+    color: #000
+}
+
+.item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.item .active {
+    color: #4da543;
+}

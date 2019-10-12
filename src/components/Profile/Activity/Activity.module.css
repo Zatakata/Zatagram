@@ -1,0 +1,11 @@
+.activity {
+    display: flex;
+}
+
+.subscriptions {
+    margin-right: 20px;
+}
+
+.subscriptions span, .subscribers span {
+    font-weight: 700;
+}

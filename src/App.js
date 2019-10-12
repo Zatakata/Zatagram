@@ -1,9 +1,9 @@
 import React from 'react'
 import './App.css'
-import Header from './components/header/Header'
-import Aside from './components/aside/Aside'
-import Profile from "./components/profile/Profile";
-import Feed from "./components/feed/Feed";
+import Header from './components/Header/Header'
+import Aside from './components/Aside/Aside'
+import Profile from "./components/Profile/Profile";
+import Feed from "./components/Feed/Feed";
 import {BrowserRouter, Route} from "react-router-dom";
 
 const App = (props) => {
@@ -13,9 +13,9 @@ const App = (props) => {
             <Header />
             <div className='app-main'>
                 <Route path='/Profile' render={ () => <Profile state={props.state.profile} /> } />
-                <Route path='/PostsFeed' render={ () => <Feed state={props.state.feed} /> }  />
+                <Route path='/Feed' render={ () => <Feed state={props.state.feed} /> }  />
             </div>
-            <Aside />
+            <Aside state={props.state.users} />
         </section>
     </BrowserRouter>
   )

@@ -1,0 +1,28 @@
+.header {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 35px;
+}
+
+.settings {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform .5s;
+}
+
+.settings img {
+    width: 34px;
+    height: 34px;
+}
+
+.settings:hover {
+    transform: rotate(45deg);
+}
+
