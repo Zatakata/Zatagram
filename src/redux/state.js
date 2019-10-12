@@ -1,3 +1,5 @@
+import {rerender} from "../render";
+
 let state = {
     profile: {
         posts: [
@@ -41,6 +43,11 @@ let state = {
         {id: 5, avatar: 'https://вайбер-ок.рф/wp-content/uploads/2018/06/4wx8ecia-min.jpg'},
         {id: 6, avatar: 'http://zabavnik.club/wp-content/uploads/2018/02/kartinki_krutye_na_avu_1_01062305-e1517466234253.jpg'},
     ]
+}
+
+export let addPost = (src) => {
+    state.profile.posts.push({name: 'name', src})
+    rerender(state)
 }
 
 export default state

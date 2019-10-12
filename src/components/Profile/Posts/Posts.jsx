@@ -4,10 +4,24 @@ import s from './Posts.module.css'
 
 
 const Posts = (props) => {
+    let inpElement = React.createRef()
+
+    let postAdd = () => {
+        let src = inpElement.current.value
+        props.addPost(src)
+        inpElement.current.value = ''
+    }
+
     return (
-        <div className={s.posts}>
-            {props.posts.map(post => <Post src={post.src}/>)}
+        <div>
+            <input ref={inpElement} className={s.inp} type="text"/>
+            <button onClick={postAdd}>Добавить</button>
+
+            <div className={s.posts}>
+                {props.posts.map(post => <Post src={post.src}/>)}
+            </div>
         </div>
+
     )
 }
 

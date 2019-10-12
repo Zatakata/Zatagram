@@ -7,18 +7,16 @@ import Feed from "./components/Feed/Feed";
 import {BrowserRouter, Route} from "react-router-dom";
 
 const App = (props) => {
-  return (
-    <BrowserRouter>
+    return (
         <section className='app container'>
-            <Header />
+            <Header/>
             <div className='app-main'>
-                <Route path='/Profile' render={ () => <Profile state={props.state.profile} /> } />
-                <Route path='/Feed' render={ () => <Feed state={props.state.feed} /> }  />
+                <Route path='/Profile' render={() => <Profile state={props.state.profile} addPost={props.addPost} />}/>
+                <Route path='/Feed' render={() => <Feed state={props.state.feed}/>}/>
             </div>
-            <Aside state={props.state.users} />
+            <Aside state={props.state.users}/>
         </section>
-    </BrowserRouter>
-  )
+    )
 }
 
 

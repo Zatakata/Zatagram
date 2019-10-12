@@ -2,36 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25987c64-829c-4af1-9756-bc3fd4186d0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Aside/Navigation/Navigation.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Aside/Navigation/Navigation.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Aside/Subscriptions/Subscriptions.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Aside/Subscriptions/Subscriptions.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/render.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/aside/Aside.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aside/Aside.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/aside/Aside.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aside/Aside.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/aside/avatar/Avatar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aside/Avatar/Avatar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/aside/avatar/Avatar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aside/Avatar/Avatar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/aside/navigation/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aside/Aside_title/Aside_title.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/aside/navigation/Navigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aside/Aside_title/Aside_title.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/aside/short_profile/Short_profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aside/Short_profile/Short_profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/aside/short_profile/Short_profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aside/Short_profile/Short_profile.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/btn/Btn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Btn/Btn.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/btn/Btn.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Btn/Btn.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/feed/Feed.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feed/Feed.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/feed/Feed.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feed/Feed.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/feed/post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feed/Post/Post.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/feed/post/Post.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feed/Post/Post.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/activity/Activity.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Activity/Activity.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/activity/Activity.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Activity/Activity.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/my_posts/My_posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Posts/Posts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/my_posts/My_posts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Posts/Posts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/my_posts/my_post/My_post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Posts/Post/Post.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/my_posts/my_post/My_post.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Posts/Post/Post.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Posts/Posts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Posts/Posts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Posts/Posts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/aside/subscriptions/subscription" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -66,17 +44,17 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projects\zatagram\src\components\aside\avatar" />
-      <recent name="D:\Projects\zatagram\src" />
-      <recent name="D:\Projects\zatagram\src\components" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\zatagram\src" />
       <recent name="D:\Projects\zatagram\src\components\aside\subscriptions\subscription" />
       <recent name="D:\Projects\zatagram\src\components\aside" />
       <recent name="D:\Projects\zatagram\src\components\feed\post" />
       <recent name="D:\Projects\zatagram\src\components\aside\avatar" />
-      <recent name="D:\Projects\zatagram\src\components\posts_feed" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\zatagram\src\components\aside\avatar" />
+      <recent name="D:\Projects\zatagram\src" />
+      <recent name="D:\Projects\zatagram\src\components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -107,7 +85,8 @@
       <workItem from="1570653820997" duration="1796000" />
       <workItem from="1570804488657" duration="206000" />
       <workItem from="1570824593693" duration="5736000" />
-      <workItem from="1570878799823" duration="8790000" />
+      <workItem from="1570878799823" duration="9118000" />
+      <workItem from="1570910095735" duration="2684000" />
     </task>
     <servers />
   </component>
