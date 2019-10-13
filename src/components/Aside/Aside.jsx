@@ -9,7 +9,7 @@ const Aside = (props) => {
         <aside className={s.aside}>
             <ShortProfile/>
             <Navigation/>
-            <Subscriptions users={props.state}/>
+            <Subscriptions users={props.store.getState().users}/>
         </aside>
     )
 }

@@ -14,7 +14,7 @@ const Posts = (props) => {
 
     return (
         <div>
-            <input ref={inpElement} className={s.inp} type="text"/>
+            <input ref={inpElement} className={s.inp} type="text" placeholder='URL картинки'/>
             <button onClick={postAdd}>Добавить</button>
 
             <div className={s.posts}>

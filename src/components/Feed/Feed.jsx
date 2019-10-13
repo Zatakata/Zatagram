@@ -3,10 +3,11 @@ import Post from "./Post/Post";
 
 
 const Feed = (props) => {
+    const posts = props.store.getState().feed.posts
     return (
         <div className='feed'>
             {
-                props.state.posts.map(post => <Post post={post}/>)
+                posts.map(post => <Post post={post}/>)
             }
         </div>
     )

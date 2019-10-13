@@ -11,7 +11,7 @@ const Profile = (props) => {
                 <h2 className={s.title}>Профиль</h2>
                 <Activity subscriptions='17' subscribers='74'/>
             </div>
-            <Posts posts={props.state.posts} addPost={props.addPost}/>
+            <Posts posts={props.store.getState().profile.posts} addPost={props.store.addPost.bind(props.store)}/>
         </div>
     )
 }
