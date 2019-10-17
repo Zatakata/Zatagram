@@ -5,7 +5,7 @@ import Subscription from "./Subscription/Subscription";
 
 
 const Subscriptions = (props) => {
-    let users = props.state.users
+    let users = props.state.aside.users
     return (
         <div className={s.subscriptions}>
             <AsideTitle title='Подписки'/>
