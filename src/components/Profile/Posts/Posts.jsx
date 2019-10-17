@@ -1,7 +1,7 @@
 import React from 'react'
 import Post from './Post/Post'
 import s from './Posts.module.css'
-import {addPostAction, changePostInputAction} from "../../../redux/state";
+import {addPostAction, changePostInputAction} from "../../../redux/profileReducer";
 
 
 const Posts = (props) => {
@@ -21,7 +21,8 @@ const Posts = (props) => {
 
     return (
         <div>
-            <input ref={inpElement} onChange={postInputTextChange} value={props.state.profile.postsInputText} className={s.inp} type="text" placeholder='URL картинки'/>
+            <input ref={inpElement} onChange={postInputTextChange} value={props.state.profile.postsInputText}
+                   className={s.inp} type="text" placeholder='URL картинки'/>
             <button onClick={postAdd}>Добавить</button>
 
             <div className={s.posts}>

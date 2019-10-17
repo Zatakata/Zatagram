@@ -1,3 +1,5 @@
+import profileReducer from "./profileReducer";
+
 let store = {
     _state: {
         profile: {
@@ -71,37 +73,33 @@ let store = {
             },
         ]
     },
-    _callSubscribe() {
+    _callSubscriber() {
         console.log('rerender is undefined')
     },
     getState() {
         return this._state
     },
     dispatch(action) {
-        if (action.type === 'add-post') {
-            this._state.profile.posts.push({name: 'name', src: action.src})
-            this._state.profile.postsInputText = ''
-            this._callSubscribe()
-        }
-        else if (action.type === 'post-input-text-change') {
-            this._state.profile.postsInputText = action.text
-            this._callSubscribe()
-        }
+
+        this._state.profile = profileReducer(this._state.profile, action)
+        this._callSubscriber()
+
+        // if (action.type === 'add-post') {
+        //     this._state.profile.posts.push({name: 'name', src: action.src})
+        //     this._state.profile.postsInputText = ''
+        //     this._callSubscribe()
+        // }
+        // else if (action.type === 'post-input-text-change') {
+        //     this._state.profile.postsInputText = action.text
+        //     this._callSubscribe()
+        // }
 
     },
     subscribe (callback) {
-        this._callSubscribe = callback
+        this._callSubscriber = callback
     }
 }
 
-export let addPostAction = (src) => ({
-    type: 'add-post',
-    src: src
-})
 
-export let changePostInputAction = (text) => ({
-    type: 'post-input-text-change',
-    text: text
-})
 
 export default store

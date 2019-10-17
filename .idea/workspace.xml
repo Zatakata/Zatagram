@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25987c64-829c-4af1-9756-bc3fd4186d0e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/feedReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/profileReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Aside/Aside.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aside/Aside.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Aside/Subscriptions/Subscriptions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aside/Subscriptions/Subscriptions.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Feed/Feed.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feed/Feed.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/Posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Posts/Posts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,17 +44,17 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\zatagram\src" />
-      <recent name="D:\Projects\zatagram\src\components\aside\subscriptions\subscription" />
-      <recent name="D:\Projects\zatagram\src\components\aside" />
-      <recent name="D:\Projects\zatagram\src\components\feed\post" />
-      <recent name="D:\Projects\zatagram\src\components\aside\avatar" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\zatagram\src\components\aside\avatar" />
       <recent name="D:\Projects\zatagram\src" />
       <recent name="D:\Projects\zatagram\src\components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\zatagram\src\redux" />
+      <recent name="D:\Projects\zatagram\src" />
+      <recent name="D:\Projects\zatagram\src\components\aside\subscriptions\subscription" />
+      <recent name="D:\Projects\zatagram\src\components\aside" />
+      <recent name="D:\Projects\zatagram\src\components\feed\post" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -109,7 +105,8 @@
       <workItem from="1570878799823" duration="9118000" />
       <workItem from="1570910095735" duration="3028000" />
       <workItem from="1570986505829" duration="2870000" />
-      <workItem from="1571309616148" duration="2003000" />
+      <workItem from="1571309616148" duration="2211000" />
+      <workItem from="1571315236939" duration="969000" />
     </task>
     <servers />
   </component>
@@ -134,8 +131,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/redux/state.js</url>
-          <line>2</line>
-          <properties lambdaOrdinal="-1" />
+          <line>4</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
