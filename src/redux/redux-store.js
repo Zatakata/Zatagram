@@ -10,6 +10,6 @@ let redusers = combineReducers({
 })
 
 
-let state = createStore(redusers)
+let store = createStore(redusers)
 
-export default state
+export default store

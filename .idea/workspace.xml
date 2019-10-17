@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25987c64-829c-4af1-9756-bc3fd4186d0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/asideReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/redux-state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Aside/Subscriptions/Subscriptions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aside/Subscriptions/Subscriptions.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/feedReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/feedReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/profileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profileReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +105,7 @@
       <workItem from="1570986505829" duration="2870000" />
       <workItem from="1571309616148" duration="2211000" />
       <workItem from="1571315236939" duration="1637000" />
-      <workItem from="1571324608083" duration="1447000" />
+      <workItem from="1571324608083" duration="1665000" />
     </task>
     <servers />
   </component>

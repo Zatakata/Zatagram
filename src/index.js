@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
 import {BrowserRouter} from "react-router-dom";
-import store from "./redux/redux-state";
+import store from "./redux/redux-store";
 
 export let rerender = (state) => {
     ReactDOM.render(
