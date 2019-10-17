@@ -8,7 +8,7 @@ import store from "./redux/state";
 export let rerender = () => {
     ReactDOM.render(
         <BrowserRouter>
-            <App store={store} />
+            <App state={store.getState()} dispatch={store.dispatch.bind(store)} />
         </BrowserRouter>,
         document.getElementById('root'))
 }

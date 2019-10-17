@@ -34,7 +34,8 @@ let store = {
                     name: 'name',
                     src: 'https://images.unsplash.com/photo-1566310421012-827cd561e657?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
                 },
-            ]
+            ],
+            postsInputText: ''
         },
         feed: {
             posts: [
@@ -70,19 +71,37 @@ let store = {
             },
         ]
     },
+    _callSubscribe() {
+        console.log('rerender is undefined')
+    },
     getState() {
         return this._state
     },
-    rerender() {
-        console.log('rerender is undefined')
-    },
-    addPost (src) {
-        this._state.profile.posts.push({name: 'name', src})
-        this.rerender()
+    dispatch(action) {
+        if (action.type === 'add-post') {
+            this._state.profile.posts.push({name: 'name', src: action.src})
+            this._state.profile.postsInputText = ''
+            this._callSubscribe()
+        }
+        else if (action.type === 'post-input-text-change') {
+            this._state.profile.postsInputText = action.text
+            this._callSubscribe()
+        }
+
     },
     subscribe (callback) {
-        this.rerender = callback
+        this._callSubscribe = callback
     }
 }
+
+export let addPostAction = (src) => ({
+    type: 'add-post',
+    src: src
+})
+
+export let changePostInputAction = (text) => ({
+    type: 'post-input-text-change',
+    text: text
+})
 
 export default store

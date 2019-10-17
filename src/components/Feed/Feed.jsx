@@ -3,7 +3,7 @@ import Post from "./Post/Post";
 
 
 const Feed = (props) => {
-    const posts = props.store.getState().feed.posts
+    const posts = props.state.feed.posts
     return (
         <div className='feed'>
             {

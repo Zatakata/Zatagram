@@ -11,10 +11,10 @@ const App = (props) => {
         <section className='app container'>
             <Header/>
             <div className='app-main'>
-                <Route path='/Profile' render={() => <Profile store={props.store} />}/>
-                <Route path='/Feed' render={() => <Feed store={props.store}/>}/>
+                <Route path='/Profile' render={() => <Profile state={props.state} dispatch={props.dispatch} />}/>
+                <Route path='/Feed' render={() => <Feed state={props.state} dispatch={props.dispatch} />}/>
             </div>
-            <Aside store={props.store}/>
+            <Aside state={props.state}/>
         </section>
     )
 }
