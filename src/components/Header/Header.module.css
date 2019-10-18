@@ -2,8 +2,7 @@
     width: 100%;
     padding: 10px 0;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .logo img {
@@ -11,6 +10,7 @@
 }
 
 .settings {
+    margin-left: auto;
     background-color: transparent;
     border: none;
     cursor: pointer;
