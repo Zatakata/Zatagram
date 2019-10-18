@@ -1,17 +1,19 @@
 import React from 'react'
 import s from './Header.module.css'
 import logo from './../../logo.png'
+import {NavLink} from "react-router-dom";
 
 
 const Aside = () => {
     return (
         <header className={s.header}>
-            <a href='#' className={s.logo}>
+            <NavLink className={s.logo} to='/Feed'>
                 <img src={logo}/>
-            </a>
-            <button className={s.settings}>
+            </NavLink>
+
+            <NavLink to='Settings' className={s.settings}>
                 <img src='https://img.icons8.com/flat_round/64/000000/settings--v4.png'/>
-            </button>
+            </NavLink>
         </header>
     )
 }
