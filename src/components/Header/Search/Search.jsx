@@ -2,8 +2,6 @@ import React from 'react'
 import s from './Search.module.css'
 import search from '../../../assets/search.svg'
 
-
-
 const Search = () => {
     return (
         <div className={s.search}>

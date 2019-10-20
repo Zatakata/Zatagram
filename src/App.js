@@ -6,6 +6,7 @@ import FeedContainer from "./components/Feed/FeedContainer";
 import AsideContainer from "./components/Aside/AsideContainer";
 import ProfileContainer from "./components/Profile/ProfileContainer";
 
+
 const App = (props) => {
     return (
         <section className='app container'>
