@@ -11,7 +11,10 @@ const Profile = (props) => {
                 <h2 className={s.title}>Профиль</h2>
                 <Activity subscriptions='17' subscribers='74'/>
             </div>
-            <Posts state={props.state} dispatch={props.dispatch} />
+            <Posts posts={props.posts}
+                   postsInputText={props.postsInputText}
+                   addPost={props.addPost}
+                   changePostText={props.changePostText} />
         </div>
     )
 }

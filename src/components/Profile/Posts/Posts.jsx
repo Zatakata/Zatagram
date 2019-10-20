@@ -1,35 +1,31 @@
 import React from 'react'
 import Post from './Post/Post'
 import s from './Posts.module.css'
-import {addPostAction, changePostInputAction} from "../../../redux/profileReducer";
 
 
 const Posts = (props) => {
-    let posts = props.state.profile.posts
-
     let inpElement = React.createRef()
 
-    let postAdd = () => {
+    let onAddPost = () => {
         let src = inpElement.current.value
-        props.dispatch(addPostAction(src))
+        props.addPost(src)
     }
 
-    let postInputTextChange = () => {
+    let onChangePostText = () => {
         let text = inpElement.current.value
-        props.dispatch(changePostInputAction(text))
+        props.changePostText(text)
     }
 
     return (
         <div>
-            <input ref={inpElement} onChange={postInputTextChange} value={props.state.profile.postsInputText}
+            <input ref={inpElement} onChange={onChangePostText} value={props.postsInputText}
                    className={s.inp} type="text" placeholder='URL картинки'/>
-            <button onClick={postAdd}>Добавить</button>
+            <button onClick={onAddPost}>Добавить</button>
 
             <div className={s.posts}>
-                {posts.map(post => <Post src={post.src}/>)}
+                {props.posts.map(post => <Post src={post.src}/>)}
             </div>
         </div>
-
     )
 }
 

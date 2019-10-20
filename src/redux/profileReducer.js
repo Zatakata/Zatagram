@@ -1,5 +1,5 @@
 const ADD_POST = 'add-post'
-const CHANGE_POST_INPUT_TEXT =  'change-post-input-text'
+const CHANGE_POST_INPUT_TEXT = 'change-post-input-text'
 
 let initialState = {
     posts: [

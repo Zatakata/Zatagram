@@ -1,6 +1,8 @@
 import React from 'react'
 import s from './Header.module.css'
-import logo from './../../logo.png'
+import logo from '../../assets/logo.png'
+import settings from '../../assets/settings.svg'
+import Search from "./Search/Search";
 
 
 const Aside = () => {
@@ -9,8 +11,9 @@ const Aside = () => {
             <a href='#' className={s.logo}>
                 <img src={logo}/>
             </a>
+            <Search/>
             <button className={s.settings}>
-                <img src='https://img.icons8.com/flat_round/64/000000/settings--v4.png'/>
+                <img src={settings}/>
             </button>
         </header>
     )

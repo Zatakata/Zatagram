@@ -1,0 +1,28 @@
+.search {
+    margin-left: 50px;
+    height: 35px;
+    position: relative;
+}
+
+.input {
+    height: 100%;
+    padding: 0 30px;
+    padding-right: 50px;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btn img {
+    width: 16px;
+    height: 16px;
+}

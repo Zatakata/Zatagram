@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25987c64-829c-4af1-9756-bc3fd4186d0e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Aside/AsideContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Feed/FeedContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Search/Search.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Search/Search.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Aside/Aside.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aside/Aside.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Aside/Subscriptions/Subscriptions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aside/Subscriptions/Subscriptions.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Feed/Feed.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feed/Feed.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Posts/Posts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/asideReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/asideReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/feedReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/feedReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profileReducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Header/Search" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,17 +58,19 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\zatagram\src\redux" />
-      <recent name="D:\Projects\zatagram\src" />
-      <recent name="D:\Projects\zatagram\src\components\aside\subscriptions\subscription" />
-      <recent name="D:\Projects\zatagram\src\components\aside" />
-      <recent name="D:\Projects\zatagram\src\components\feed\post" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\zatagram\src\assets" />
+      <recent name="D:\Projects\zatagram\src\components\Aside" />
       <recent name="D:\Projects\zatagram\src\components\aside\avatar" />
       <recent name="D:\Projects\zatagram\src" />
       <recent name="D:\Projects\zatagram\src\components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\zatagram\src\components\Header\Search" />
+      <recent name="D:\Projects\zatagram\src\components\Profile" />
+      <recent name="D:\Projects\zatagram\src\components\Aside\Subscriptions" />
+      <recent name="D:\Projects\zatagram\src\components\Feed" />
+      <recent name="D:\Projects\zatagram\src\components\Profile\Posts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -105,7 +123,8 @@
       <workItem from="1570986505829" duration="2870000" />
       <workItem from="1571309616148" duration="2211000" />
       <workItem from="1571315236939" duration="1637000" />
-      <workItem from="1571324608083" duration="1665000" />
+      <workItem from="1571324608083" duration="3455000" />
+      <workItem from="1571569680670" duration="4564000" />
     </task>
     <servers />
   </component>
@@ -124,5 +143,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/redux/state.js</url>
+          <line>41</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

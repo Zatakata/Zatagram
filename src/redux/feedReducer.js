@@ -1,4 +1,3 @@
-
 let initialState = {
     posts: [
         {
@@ -24,7 +23,6 @@ let initialState = {
 
 
 let feedReducer = (state = initialState, action) => {
-
 
     return state
 }

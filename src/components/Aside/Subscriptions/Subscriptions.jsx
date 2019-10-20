@@ -5,12 +5,11 @@ import Subscription from "./Subscription/Subscription";
 
 
 const Subscriptions = (props) => {
-    let users = props.state.aside.users
     return (
         <div className={s.subscriptions}>
             <AsideTitle title='Подписки'/>
             <div className={s.list}>
-                {users.map(user => <Subscription avatar={user.avatar}/>)}
+                {props.users.map(user => <Subscription avatar={user.avatar}/>)}
             </div>
         </div>
     )

@@ -1,5 +1,4 @@
-
-let initialState =  {
+let initialState = {
     users: [
         {id: 1, avatar: 'https://i.pinimg.com/originals/0c/a9/e2/0ca9e28dcb12dc698cfd2beda6d6fa64.jpg'},
         {id: 2, avatar: 'https://cs16planet.ru/steam-avatars/images/avatar2700.jpg'},
@@ -15,8 +14,6 @@ let initialState =  {
 
 
 let asideReducer = (state = initialState, action) => {
-
-
     return state
 }
 
