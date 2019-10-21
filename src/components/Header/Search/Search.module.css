@@ -6,10 +6,16 @@
 
 .input {
     height: 100%;
+    width: 230px;
     padding: 0 30px;
     padding-right: 50px;
     border-radius: 20px;
     border: none;
+    transition: width .25s;
+}
+
+.input:focus {
+    width: 280px;
 }
 
 .btn {

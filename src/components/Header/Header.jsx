@@ -12,9 +12,9 @@ const Aside = () => {
                 <img src={logo}/>
             </NavLink>
             <Search/>
-            <button className={s.settings}>
+            <NavLink to='/Settings' className={s.settings}>
                 <img src={settings}/>
-            </button>
+            </NavLink>
         </header>
     )
 }

@@ -53,12 +53,16 @@ let initialState = {
 let profileReducer = (state = initialState, action) => {
     switch (action.type) {
         case ADD_POST:
-            state.posts.push({name: 'name', src: action.src})
-            state.postsInputText = ''
-            return state
+            return {
+                ...state,
+                posts: [...state.posts, {name: 'name', src: action.src}],
+                postsInputText: ''
+            }
         case CHANGE_POST_INPUT_TEXT:
-            state.postsInputText = action.text
-            return state
+            return {
+                ...state,
+                postsInputText: action.text
+            }
         default:
             return state
     }

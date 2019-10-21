@@ -4,17 +4,20 @@ import './index.css'
 import App from './App'
 import {BrowserRouter} from "react-router-dom";
 import store from "./redux/redux-store";
+import {Provider} from "react-redux";
 
-export let rerender = (state) => {
+export let rerender = () => {
     ReactDOM.render(
-        <BrowserRouter>
-            <App store={store}/>
-        </BrowserRouter>,
+        <Provider store={store}>
+            <BrowserRouter>
+                <App store={store}/>
+            </BrowserRouter>
+        </Provider>,
         document.getElementById('root'))
 }
 
-rerender(store.getState())
+rerender()
 
-store.subscribe(() => {
-    rerender(store.getState())
-})
+// store.subscribe(() => {
+//     rerender(store.getState())
+// })
