@@ -9,7 +9,8 @@
 
 .item {
     cursor: pointer;
-    color: #000
+    color: #000;
+    font-weight: 600;
 }
 
 .item:not(:last-child) {
@@ -17,5 +18,5 @@
 }
 
 .item .active {
-    color: #4da543;
+    color: var(--free-speech-blue);
 }

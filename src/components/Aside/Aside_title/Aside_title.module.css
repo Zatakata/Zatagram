@@ -1,6 +1,6 @@
 .title {
     text-align: center;
-    background-color: #eee;
-    padding: 5px 0;
+    background-color: var(--hint-elusive-blue);
+    padding: 7px 0;
     font-weight: 500;
 }
