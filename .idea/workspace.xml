@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25987c64-829c-4af1-9756-bc3fd4186d0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/variables.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Aside/Aside_title/Aside_title.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aside/Aside_title/Aside_title.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Aside/Navigation/Navigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aside/Navigation/Navigation.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Aside/Short_profile/Short_profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aside/Short_profile/Short_profile.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Search/Search.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Search/Search.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Activity/Activity.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Activity/Activity.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Activity/Activity.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Activity/Activity.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Aside/Subscriptions/Subscriptions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aside/Subscriptions/Subscriptions.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Posts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Posts/Post/Post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Posts/Post/Post.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Posts/Post/Post.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Posts/Posts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profileReducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +115,8 @@
       <workItem from="1571324608083" duration="3455000" />
       <workItem from="1571569680670" duration="6498000" />
       <workItem from="1571668596418" duration="2503000" />
-      <workItem from="1571773906327" duration="4645000" />
+      <workItem from="1571773906327" duration="4967000" />
+      <workItem from="1572023759806" duration="4841000" />
     </task>
     <servers />
   </component>

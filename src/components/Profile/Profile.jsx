@@ -14,7 +14,9 @@ const Profile = (props) => {
             <Posts posts={props.posts}
                    postsInputText={props.postsInputText}
                    addPost={props.addPost}
-                   changePostText={props.changePostText} />
+                   changePostText={props.changePostText}
+                   addLike={props.addLike}
+                   removeLike={props.removeLike} />
         </div>
     )
 }

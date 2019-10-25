@@ -9,7 +9,7 @@ const Subscriptions = (props) => {
         <div className={s.subscriptions}>
             <AsideTitle title='Подписки'/>
             <div className={s.list}>
-                {props.users.map(user => <Subscription avatar={user.avatar}/>)}
+                {props.users.map((user, id) => <Subscription key={id} avatar={user.avatar}/>)}
             </div>
         </div>
     )

@@ -1,39 +1,23 @@
 const ADD_POST = 'add-post'
 const CHANGE_POST_INPUT_TEXT = 'change-post-input-text'
+const ADD_LIKE = 'add-like'
+const REMOVE_LIKE = 'remove-like'
 
 let initialState = {
     posts: [
         {
+            id: 1,
             name: 'name',
-            src: 'https://images.unsplash.com/photo-1570640717412-bac2dc91ae86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80'
+            src: 'https://images.unsplash.com/photo-1570640717412-bac2dc91ae86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+            likes: 0,
+            isLike: false
         },
         {
+            id: 2,
             name: 'name',
-            src: 'https://images.unsplash.com/photo-1570630992840-0bdd5732442e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80'
-        },
-        {
-            name: 'name',
-            src: 'https://images.unsplash.com/photo-1565121504582-6dbd18772bb2?ixlib=rb-1.2.1&auto=format&fit=crop&w=719&q=80'
-        },
-        {
-            name: 'name',
-            src: 'https://images.unsplash.com/photo-1549174292-0e5ae176b8b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80'
-        },
-        {
-            name: 'name',
-            src: 'https://images.unsplash.com/photo-1567066245527-7097def64260?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80'
-        },
-        {
-            name: 'name',
-            src: 'https://images.unsplash.com/photo-1563544955328-fefce27148fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=611&q=80'
-        },
-        {
-            name: 'name',
-            src: 'https://images.unsplash.com/photo-1569683795645-b62e50fbf103?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80'
-        },
-        {
-            name: 'name',
-            src: 'https://images.unsplash.com/photo-1566310421012-827cd561e657?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
+            src: 'https://images.unsplash.com/photo-1570630992840-0bdd5732442e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+            likes: 0,
+            isLike: false
         },
     ],
     users: [
@@ -63,6 +47,30 @@ let profileReducer = (state = initialState, action) => {
                 ...state,
                 postsInputText: action.text
             }
+        case ADD_LIKE: {
+            let stateCopy = {...state}
+            stateCopy.posts = state.posts.map(post => {
+                if (post.id === action.id) {
+                    post.isLike = true
+                    post.likes++
+                    console.log(post.likes)
+                }
+                return post
+            })
+            return stateCopy
+        }
+        case REMOVE_LIKE: {
+            let stateCopy = {...state}
+            stateCopy.posts = state.posts.map(post => {
+                if (post.id === action.id) {
+                    post.isLike = false
+                    post.likes--
+                    console.log(post.likes)
+                }
+                return post
+            })
+            return stateCopy
+        }
         default:
             return state
     }
@@ -76,6 +84,16 @@ export let addPostAction = (src) => ({
 export let changePostInputAction = (text) => ({
     type: 'change-post-input-text',
     text: text
+})
+
+export let addLikeAction = (id) => ({
+    type: 'add-like',
+    id: id
+})
+
+export let removeLikeAction = (id) => ({
+    type: 'remove-like',
+    id: id
 })
 
 export default profileReducer
