@@ -1,5 +1,11 @@
 import React from 'react'
-import {addLikeAction, addPostAction, changePostInputAction, removeLikeAction} from "../../redux/profileReducer";
+import {
+    addLikeAction,
+    addPostAction,
+    changePostInputAction,
+    removeLikeAction,
+    setPosts
+} from "../../redux/profileReducer";
 import Profile from "./Profile";
 import {connect} from "react-redux";
 
@@ -42,6 +48,9 @@ let mapDispatchToProps = (dispatch) => {
         },
         removeLike: id => {
             dispatch(removeLikeAction(id))
+        },
+        setPosts: posts => {
+            dispatch(setPosts(posts))
         }
     }
 }

@@ -6,16 +6,16 @@ import unlike from '../../../../assets/unlike.svg'
 const Post = (props) => {
 
     let onAddLike = () => {
-        props.addLike(props.post.id)
+        props.addLike(props.post._id)
     }
 
     let onRemoveLike = () => {
-        props.removeLike(props.post.id)
+        props.removeLike(props.post._id)
     }
 
     return (
         <div className={s.post}>
-            <img src={props.post.src} alt={props.post.name}/>
+            <img src={props.post.photoSrc} alt={props.post.name}/>
             <div className={s.actions}>
                 {
                     props.post.isLike ?

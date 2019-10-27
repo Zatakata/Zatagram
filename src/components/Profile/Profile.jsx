@@ -3,7 +3,6 @@ import Activity from './Activity/Activity'
 import Posts from './Posts/Posts'
 import s from './Profile.module.css'
 
-
 const Profile = (props) => {
     return (
         <div className={s.profile}>
@@ -16,7 +15,8 @@ const Profile = (props) => {
                    addPost={props.addPost}
                    changePostText={props.changePostText}
                    addLike={props.addLike}
-                   removeLike={props.removeLike} />
+                   removeLike={props.removeLike}
+                   setPosts={props.setPosts} />
         </div>
     )
 }
