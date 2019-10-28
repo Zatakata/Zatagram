@@ -4,7 +4,7 @@ import {
     addPostAction,
     changePostInputAction,
     removeLikeAction,
-    setPosts
+    setPosts, toggleFetchingAction
 } from "../../redux/profileReducer";
 import Profile from "./Profile";
 import {connect} from "react-redux";
@@ -31,7 +31,8 @@ import {connect} from "react-redux";
 let mapStateToProps = (state) => {
     return {
         posts: state.profile.posts,
-        postsInputText: state.profile.postsInputText
+        postsInputText: state.profile.postsInputText,
+        isFetching: state.profile.isFetching
     }
 }
 
@@ -51,6 +52,9 @@ let mapDispatchToProps = (dispatch) => {
         },
         setPosts: posts => {
             dispatch(setPosts(posts))
+        },
+        toggleFetching: isFetching => {
+            dispatch(toggleFetchingAction(isFetching))
         }
     }
 }

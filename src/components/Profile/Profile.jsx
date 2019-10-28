@@ -16,7 +16,10 @@ const Profile = (props) => {
                    changePostText={props.changePostText}
                    addLike={props.addLike}
                    removeLike={props.removeLike}
-                   setPosts={props.setPosts} />
+                   setPosts={props.setPosts}
+                   isFetching={props.isFetching}
+                   toggleFetching={props.toggleFetching}
+            />
         </div>
     )
 }

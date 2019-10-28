@@ -1,19 +1,23 @@
 import React from 'react'
 import Post from './Post/Post'
 import s from './Posts.module.css'
-import axios from "axios";
+import axios from 'axios'
+import preloader from './../../../assets/preloader.svg'
 
 
-class Posts extends React.Component{
+class Posts extends React.Component {
     constructor(props) {
         super(props)
         this.inpElement = React.createRef()
     }
 
     componentDidMount() {
+        this.props.toggleFetching(true)
+
         axios.get('http://127.0.0.1:8080/api/users/5db5663600638b0804a491a6')
             .then(response => {
                 this.props.setPosts(response.data.posts)
+                this.props.toggleFetching(false)
             })
     }
 
@@ -35,8 +39,11 @@ class Posts extends React.Component{
                 <button onClick={this.onAddPost}>Добавить</button>
 
                 <div className={s.posts}>
-                    {this.props.posts.map(post => <Post key={post._id} post={post} addLike={this.props.addLike}
-                                                        removeLike={this.props.removeLike}/>)}
+                    {
+                        this.props.isFetching ? <div><img src={preloader} /></div>:
+                            this.props.posts.map(post => <Post key={post._id} post={post} addLike={this.props.addLike}
+                                                               removeLike={this.props.removeLike}/>)
+                    }
                 </div>
             </div>
         )
