@@ -1,7 +1,7 @@
 import React from 'react'
 import Activity from './Activity/Activity'
-import Posts from './Posts/Posts'
 import s from './Profile.module.css'
+import PostsContainer from "./Posts/PostsContainer";
 
 const Profile = (props) => {
     return (
@@ -10,18 +10,10 @@ const Profile = (props) => {
                 <h2 className={s.title}>Профиль</h2>
                 <Activity subscriptions='17' subscribers='74'/>
             </div>
-            <Posts posts={props.posts}
-                   postsInputText={props.postsInputText}
-                   addPost={props.addPost}
-                   changePostText={props.changePostText}
-                   addLike={props.addLike}
-                   removeLike={props.removeLike}
-                   setPosts={props.setPosts}
-                   isFetching={props.isFetching}
-                   toggleFetching={props.toggleFetching}
-            />
+            <PostsContainer/>
         </div>
     )
 }
+
 
 export default Profile;

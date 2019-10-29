@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25987c64-829c-4af1-9756-bc3fd4186d0e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/Posts/AddPost/AddPost.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/Posts/AddPost/AddPost.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/Posts/PostsContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/Posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Posts/Posts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/profileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profileReducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Header/Search" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile/Posts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -44,19 +49,19 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\zatagram\src\components\Header\Search" />
-      <recent name="D:\Projects\zatagram\src\components\Profile" />
-      <recent name="D:\Projects\zatagram\src\components\Aside\Subscriptions" />
-      <recent name="D:\Projects\zatagram\src\components\Feed" />
-      <recent name="D:\Projects\zatagram\src\components\Profile\Posts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\zatagram\src\assets" />
       <recent name="D:\Projects\zatagram\src\components\Aside" />
       <recent name="D:\Projects\zatagram\src\components\aside\avatar" />
       <recent name="D:\Projects\zatagram\src" />
       <recent name="D:\Projects\zatagram\src\components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\zatagram\src\components\Profile\Posts" />
+      <recent name="D:\Projects\zatagram\src\components\Header\Search" />
+      <recent name="D:\Projects\zatagram\src\components\Profile" />
+      <recent name="D:\Projects\zatagram\src\components\Aside\Subscriptions" />
+      <recent name="D:\Projects\zatagram\src\components\Feed" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -71,7 +76,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -85,6 +100,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +132,8 @@
       <workItem from="1572023759806" duration="5408000" />
       <workItem from="1572122143880" duration="1495000" />
       <workItem from="1572166549216" duration="4782000" />
-      <workItem from="1572287305668" duration="2348000" />
+      <workItem from="1572287305668" duration="3096000" />
+      <workItem from="1572365988882" duration="9266000" />
     </task>
     <servers />
   </component>
@@ -143,6 +160,12 @@
           <url>file://$PROJECT_DIR$/src/redux/state.js</url>
           <line>41</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Profile/Posts/Posts.jsx</url>
+          <line>7</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
